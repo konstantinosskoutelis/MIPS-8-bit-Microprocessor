@@ -1,4 +1,4 @@
-f = open("./32bit_binary_input.dat", "r")
+f = open("./IO_files/fibonacci_binary.dat", "r")
 #print(f.read())
 contents = f.readlines()
 finalString = []
@@ -6,8 +6,10 @@ number = 0
 relations = [ ('0','0000'),('1','0001'),('2','0010'),('3','0011'),('4','0100'),('5','0101'),('6','0110'),('7','0111'),('8','1000'),('9','1001'),('a','1010'),('b','1011'),('c','1100'),('d','1101'),('e','1110'),('f','1111')  ]
 
 def writeFile(listInput):
-    f1=open('./8bit_hex_output.dat', 'a')
-    for content in finalString: 
+    f1=open('./IO_files/8bit_hex_output.dat', 'a')
+    f1.seek(0)#write at start of file
+    f1.truncate()#move pointer at beginning of file to start writing
+    for content in listInput: 
         content = str(content).replace(" ","")
         f1.write(content + "\n")
 

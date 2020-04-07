@@ -1,4 +1,4 @@
-f = open("./8bit_hex_input.dat", "r")
+f = open("./IO_files/8bit_hex_input.dat", "r")
 contents = f.readlines()
 finalString = []
 number = 0
@@ -10,7 +10,9 @@ def getHex(character):
         if len(temp)>1:
             return temp
 def writeFile(listInput):
-    f1=open('./32bit_binary_output.dat', 'a')
+    f1=open('./IO_files/32bit_binary_output.dat', 'a')
+    f1.seek(0)#write at start of file
+    f1.truncate()#move pointer at beginning of file to start writing
     for content in finalString: 
         content = str(content).replace(" ","")
         f1.write(content + "\n")

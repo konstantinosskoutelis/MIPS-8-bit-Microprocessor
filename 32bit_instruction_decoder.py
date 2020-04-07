@@ -1,4 +1,4 @@
-f = open("./32bit_binary_output.dat", "r")
+f = open("./IO_files/fibonacci_binary.dat", "r")
 contents = f.readlines()
 
 operations = [('00','R'),('01','I'),('10','J')]
@@ -18,13 +18,17 @@ def binaryToDecimal(binary):
     return(decimal)     
 
 def writeFile(listInput):
-    f1=open('./8bit_hex_output.dat', 'a')
-    for content in finalString: 
+    f1=open('./IO_files/assembly_instructions_output.dat', 'a')
+    f1.seek(0)#write at start of file
+    f1.truncate()#move pointer at beginning of file to start writing
+    for content in listInput: 
         content = str(content).replace(" ","")
         f1.write(content + "\n")
 
-
+#contents = ["10100000010001110000000001000111" , "00000000000000000000000000000011","00000000000000000000000000000101","00000000000000000000000000001100"]
 for line in contents:
+    line = ''.join(i for i in line if i.isdigit())
+    #print(line)
     instruction.append('')  
     #print("Line No " + str(number) + " : " + str(line))
 
@@ -73,6 +77,8 @@ for line in contents:
         ra_name = binaryToDecimal(int( 0 if ra.lstrip("0")=='' else ra.lstrip("0")  ))#in case it is reg 0, to return 0 and not throw an error
         rb_name = binaryToDecimal(int( 0 if rb.lstrip("0")=='' else rb.lstrip("0") ))
         imm_name = binaryToDecimal(int( 0 if imm.lstrip("0")=='' else imm.lstrip("0") ))
+        if(imm == "1111111111111111"):#TODO singed numbers functionality
+            imm_name = "-1"
 
         if opcode == '001000':
             funct_i = instructions_I[0]
@@ -80,7 +86,7 @@ for line in contents:
 
         elif opcode == '000100':
             funct_i = instructions_I[1]
-            instruction[number] = funct_i[1] + " $"+str(rb_name)+", $"+ str(ra_name) +", "+ str(imm_name )
+            instruction[number] = funct_i[1] + " $"+str(ra_name)+", $"+ str(rb_name) +", "+ str(imm_name )
 
         elif opcode == '100000':
             funct_i = instructions_I[2]
@@ -91,7 +97,6 @@ for line in contents:
             instruction[number] = funct_i[1] + " $"+str(rb_name)+", "+ str(imm_name) + " ($" + str(ra_name) + ")"  
     
     number += 1
-
-
-print(instruction)
+#print(instruction)
+writeFile(instruction)
 
