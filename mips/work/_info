@@ -1,0 +1,678 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/skout/Desktop/VLSI/mips
+vadder
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 DXx4 work 12 mips_sv_unit 0 22 6I>oTbm99PgcHmnzTed<i0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Dc17Bf1hY4aRNU47QBmHn0
+IYFalfNP8n1``ecmE@1W5;0
+Z4 !s105 mips_sv_unit
+S1
+R0
+Z5 w1253290587
+Z6 8mips.sv
+Z7 Fmips.sv
+L0 506
+Z8 OV;L;10.4b;61
+Z9 !s108 1586256407.000000
+Z10 !s107 mips.sv|
+Z11 !s90 -reportprogress|300|mips.sv|
+!i113 1
+valu
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 <hin`[?4<<[8Kbk>G]Kl]0
+I;P;Waa_1]iz:FJ1SYUNMN1
+R4
+S1
+R0
+R5
+R6
+R7
+L0 365
+R8
+R9
+R10
+R11
+!i113 1
+vALU
+R1
+Z12 !s110 1586178150
+!i10b 1
+!s100 1gm8ehPUZ36NEO96iNdc02
+I5IB@69C3^B1^VfZ6:A50K3
+R3
+!s105 alu_sv_unit
+S1
+R0
+w1586169117
+8alu.sv
+Falu.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z13 !s108 1586178150.000000
+Z14 !s107 MCU_tb.sv|MicroController.sv|Control_Logic.sv|PMem.sv|modules.sv|DMem.sv|alu.sv|
+Z15 !s90 -reportprogress|300|alu.sv|DMem.sv|modules.sv|PMem.sv|Control_Logic.sv|MicroController.sv|MCU_tb.sv|
+!i113 1
+n@a@l@u
+valudec
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 P`eD[YzbX6GQB^5Si?0WK2
+In`D_K:QOMNaeN<nmhZb_b0
+R4
+S1
+R0
+R5
+R6
+R7
+L0 294
+R8
+R9
+R10
+R11
+!i113 1
+vandN
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 JKBW2R>]zEF;<KWLj?Tz]1
+IQh_>Q0dGIOieafL7@9J4`0
+R4
+S1
+R0
+R5
+R6
+R7
+L0 474
+R8
+R9
+R10
+R11
+!i113 1
+nand@n
+vcondinv
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 VSelQoB3TmJGYZY:^IZFJ1
+IJlZFB_?@;aVHSC6c;9aK70
+R4
+S1
+R0
+R5
+R6
+R7
+L0 495
+R8
+R9
+R10
+R11
+!i113 1
+vControl_Logic
+R1
+R12
+!i10b 1
+!s100 oEUKmC>3415OWe0Qdh@;c0
+InE:bf9V=fhlRlAcKCA^=O0
+R3
+!s105 Control_Logic_sv_unit
+S1
+R0
+w1586175886
+8Control_Logic.sv
+FControl_Logic.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+n@control_@logic
+vcontroller
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 89ok`kIBc9kI2IdalhDfU0
+IN=VE;_4i5AQh47dN>dFN31
+R4
+S1
+R0
+R5
+R6
+R7
+L0 130
+R8
+R9
+R10
+R11
+!i113 1
+vdatapath
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 <L?JaS>TGJjFOQRYYMBJP3
+I=m2HRM5VKEN?5LcGl^:K91
+R4
+S1
+R0
+R5
+R6
+R7
+L0 313
+R8
+R9
+R10
+R11
+!i113 1
+vDMem
+R1
+R12
+!i10b 1
+!s100 `P8SQl6YFzk=Y?YaIk6]90
+I`]J?@IHm5Sji_ZVG?jk@I3
+R3
+!s105 DMem_sv_unit
+S1
+R0
+w1586170256
+8DMem.sv
+FDMem.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+n@d@mem
+vexmemory
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 lhz2<ReL>gk:6K@khSMD41
+IQCzlimF6a?dz6NjU60@?g0
+R4
+S1
+R0
+R5
+R6
+R7
+L0 67
+R8
+R9
+R10
+R11
+!i113 1
+vflop
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 AIzWI=aDL>AXPOkMd<H>23
+Ia;`1g4g>3iWfmfz@Ki[?Z0
+R4
+S1
+R0
+R5
+R6
+R7
+L0 411
+R8
+R9
+R10
+R11
+!i113 1
+vflopen
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 jDZjcT[4Ue1oeX5RGhJW50
+IO5hAMKJJbkR`_e`4mEJbj2
+R4
+S1
+R0
+R5
+R6
+R7
+L0 420
+R8
+R9
+R10
+R11
+!i113 1
+vflopenr
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 m^d32?@d6dnMzANdX>N:K0
+IOf3DCV`n^z7fUNhL0^^Pn2
+R4
+S1
+R0
+R5
+R6
+R7
+L0 429
+R8
+R9
+R10
+R11
+!i113 1
+vinv
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 NEz[NhbaOV4VPhklYk_JY1
+IKGYmJjja@=IQ>Ighj?kUN3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 488
+R8
+R9
+R10
+R11
+!i113 1
+vMCU_tb
+R1
+R12
+!i10b 1
+!s100 JndK5bTGLeCznF3^47LL<3
+IFlgbffa4kS6fb:kV^3<XP2
+R3
+!s105 MCU_tb_sv_unit
+S1
+R0
+w1586178054
+8MCU_tb.sv
+FMCU_tb.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+n@m@c@u_tb
+vMicroController
+R1
+R12
+!i10b 1
+!s100 ClU7TN1B4_U=1a6Y4Uj;00
+I2GW1UC0CdR7H:I>17cNFG2
+R3
+!s105 MicroController_sv_unit
+S1
+R0
+w1586177414
+8MicroController.sv
+FMicroController.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+n@micro@controller
+vmips
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^lh]bjkR0ZBBSS=5BT3`m2
+I]XZ^fHoE<lm71_<5S:3cG2
+R4
+S1
+R0
+R5
+R6
+R7
+L0 105
+R8
+R9
+R10
+R11
+!i113 1
+Xmips_sv_unit
+R1
+V6I>oTbm99PgcHmnzTed<i0
+r1
+!s85 0
+31
+!i10b 1
+!s100 c[W4Y?<O51Ve6Vz9hcm9h0
+I6I>oTbm99PgcHmnzTed<i0
+!i103 1
+S1
+R0
+R5
+R6
+R7
+L0 15
+R8
+R9
+R10
+R11
+!i113 1
+vMUX1
+R1
+R12
+!i10b 1
+!s100 jX8f>iaE`N?NJ]`e898d@1
+IWU<MD[U4<a<_PVljh2DG]3
+R3
+!s105 modules_sv_unit
+S1
+R0
+w1586170428
+8modules.sv
+Fmodules.sv
+L0 9
+R8
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+n@m@u@x1
+vmux2
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 =6WFG6?A4N95U8<9PLQ`S1
+Iz:LQ><=P^I;L0JCZ=1H;03
+R4
+S1
+R0
+R5
+R6
+R7
+L0 439
+R8
+R9
+R10
+R11
+!i113 1
+vmux3
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;<?[<>dzNMi[FjXLcVE>W3
+I^Ii5;OXE?PC[4OgQSEiF;2
+R4
+S1
+R0
+R5
+R6
+R7
+L0 447
+R8
+R9
+R10
+R11
+!i113 1
+vmux4
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 aaZKP6Xc1cQzP;YWNoAkV0
+InWJW@K3cAFT@<U`ccfIT83
+R4
+S1
+R0
+R5
+R6
+R7
+L0 460
+R8
+R9
+R10
+R11
+!i113 1
+vorN
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 I5G_z=;8a=G3`R;nEzhRf2
+Iag>kEL;Ul17Tmom:@NNb_3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 481
+R8
+R9
+R10
+R11
+!i113 1
+nor@n
+voutputlogic
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 K>^FBjgmZ@jY=7DS]jaSf3
+I3hDE;;7UM[XKT76lidDSD2
+R4
+S1
+R0
+R5
+R6
+R7
+L0 198
+R8
+R9
+R10
+R11
+!i113 1
+vPMem
+R1
+R12
+!i10b 1
+!s100 L5?Nci]DF0f3?47hMJICI0
+ID@VSQ8gfm@lLW65d?d>mn0
+R3
+!s105 PMem_sv_unit
+S1
+R0
+w1586171074
+8PMem.sv
+FPMem.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+n@p@mem
+vregfile
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 QNN]456f^^<9Ee<PNJl;02
+IgK5faS4A3UBfkYCXO;NYN0
+R4
+S1
+R0
+R5
+R6
+R7
+L0 384
+R8
+R9
+R10
+R11
+!i113 1
+vstatelogic
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 44Ez:P:2WV[41a4>3cRC@2
+IA59;EcMjcMaOmRPaaW:5=1
+R4
+S1
+R0
+R5
+R6
+R7
+L0 156
+R8
+R9
+R10
+R11
+!i113 1
+vtestbench
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 XZlgEn_e7ezHW@[KG6A?C0
+IPNk3H[QgYH6zY8S9Q6R`b2
+R4
+S1
+R0
+R5
+R6
+R7
+L0 30
+R8
+R9
+R10
+R11
+!i113 1
+vzerodetect
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 TFC3dcWflJadGz3Gg`EHV1
+I>EdLBeF7@D?5C8^K<BP0a3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 404
+R8
+R9
+R10
+R11
+!i113 1
