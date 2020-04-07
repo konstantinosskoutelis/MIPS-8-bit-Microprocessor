@@ -6,8 +6,6 @@ functions = [('000','addition'),('001','subtraction'),('010','bitwise-and'),('01
 number =0
 
 
-
-///
 for line in contents:
     print("Line No " + str(number) + " : " + str(line))
     opcode =str(line)[:6] 
