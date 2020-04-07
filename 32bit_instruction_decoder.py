@@ -5,6 +5,9 @@ operations = [('00','R'),('01','I'),('10','J')]
 functions = [('000','addition'),('001','subtraction'),('010','bitwise-and'),('011','bitwise-or'),('100','set-less-than'),('101','n/a')]
 number =0
 
+
+
+///
 for line in contents:
     print("Line No " + str(number) + " : " + str(line))
     opcode =str(line)[:6] 
