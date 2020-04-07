@@ -19,13 +19,13 @@ def binaryToDecimal(binary):
 
 
 
-
-
+    
+    
+contents = ["00000000011001000010100000100100" , "00001000000000000000000000001111" ]
 for line in contents:
     instruction.append('')  
     #print("Line No " + str(number) + " : " + str(line))
-    line = "00001011111222223333312345101010" 
-    line = "00000000011001000010100000100100" #bitwise-and 
+
     opcode =str(line)[:6] 
     if opcode == '000000':
         #print("R-type Instruction")
@@ -48,8 +48,7 @@ for line in contents:
             funct = functions[3]
         elif(function == '101010'):
             funct = functions[4]    
-        #print(funct[1])
-        
+        #print(funct[1])        
         instruction[number] =funct[2] + " $" + str(rd_name) + ", $"+ str(ra_name) + ", $" + str(rb_name)
 
 
@@ -58,6 +57,9 @@ for line in contents:
         op = operations[2]
         funct = functions[5]
         dest = str(line)[6:]
+        dest_name = binaryToDecimal(int(dest.lstrip("0")))
+        instruction[number] = op[1] + " $dest("+str(dest_name)+")" 
+
     else :
         # print("I-type Instruction")
         op = operations[1]
@@ -72,8 +74,6 @@ for line in contents:
 
     
     
-    if number == 0:
-        break
     number += 1
 
 
