@@ -1,1 +1,1 @@
-8 bit MIPS
+#8 bit MIPS MicroProcessor
