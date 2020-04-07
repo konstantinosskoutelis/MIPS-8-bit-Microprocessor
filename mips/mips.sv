@@ -1,9 +1,4 @@
-//---------------------------------------------------------
-// mips.sv
-// Max Yi (byyi@hmc.edu) and David_Harris@hmc.edu 12/9/03
-// Changes 7/3/07
-//   Updated to SystemVerilog
-//   Fixed endianness
+//--------------------------------------------------------
 //
 // Model of subset of MIPS processor described in Ch 1
 //  note that no sign extension is done because width is
